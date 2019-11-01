@@ -93,7 +93,6 @@ h2{
   }
 .about-video{
   width: 430px;
-  height: 245px;
   background-color: #445161;
 }
 .dap-product{
@@ -244,4 +243,218 @@ h2{
   text-align: left;
   color: #989898;
   padding: 15px 0px;
+}
+
+.bin{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.bin-title{
+  width: 100%;
+  text-align: center;
+}
+
+.card-padding{
+  padding: 20px;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  width: 300px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  justify-content: center;
+  padding-bottom: 20px;
+
+}
+.card-header{
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size:24px;
+  line-height: 1.25;
+}
+
+.card-price{
+  width: 100%;
+  background-color: #ffffff;
+  color: #445161;
+  font-size: 40px;
+  line-height: 0.75;
+  text-align: center;
+}
+
+.card-list{
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.card-button {
+  height: 40px;
+  padding: 0px 110px;
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  background-color: #ededed;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #445161;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  text-align: center;
+  line-height: 40px;
+}
+.card-button:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.card-button:active {
+	position:relative;
+	top:1px;
+}
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer-title{
+  width: 100%;
+  text-align: center;
+  color: #dcdcdc;
+}
+form{
+  width: 494px;
+  text-align: center;
+  outline: none;
+}
+
+.input-wrapper{
+  display: block;
+}
+
+input, textarea{
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: none;
+  line-height: 34px;
+  padding: 10px;
+}
+textarea{
+  height: 144px;
+  line-height: 15px;
+}
+.form-button{
+  width: 140px;
+  font-size: 16px;
+  line-height: 40px;
+  border-radius: 5px;
+  color: #445161;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+input, textarea:focus{
+  outline: #d1d0d0;
+}
+input, textarea:active{
+  outline: #d1d0d0;
+}
+.form-button:focus{
+  outline: #d1d0d0;
+}
+.form-button:active{
+  outline: #d1d0d0;
+}
+.icon-list li, li > a{
+  list-style-type: none;
+  text-decoration: none;
+  color:#ffffff;
+  margin-bottom: 30px;
+}
+.icon-list li{
+  padding-left: 40px;
+}
+
+.skype::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-image: url(../img/skype_icon.png);
+  background-repeat: no-repeat;
+  margin-left: -33px;
+  margin-top: -5px;
+}
+.isq::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-image: url(../img/icq\ icon.png);
+  background-repeat: no-repeat;
+  margin-left: -33px;
+  margin-top: -5px;
+}
+
+.email::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-image: url(../img/email\ icon.png);
+  background-repeat: no-repeat;
+  margin-left: -33px;
+  margin-top: -5px;
+}
+
+.phone::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-image: url(../img/phone\ icon.png);
+  background-repeat: no-repeat;
+  margin-left: -33px;
+  margin-top: -5px;
+}
+@font-face{
+  font-family: "Socialico";
+  src: url("../fonts/Socialico.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+.social-buttons{
+  padding-top: 15px;
+}
+.social-buttons a{
+  text-decoration: none;
+}
+.social-buttons .icon-text{
+  font-family: "Socialico";
+  font-size: 60px;
+  line-height: 0.4px;
+  color:#ffffff;
+}
+
+.copy{
+  color: #445162;
+  text-align: center;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.3px;
 }
